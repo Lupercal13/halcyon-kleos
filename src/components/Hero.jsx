@@ -22,37 +22,40 @@ const Hero = () => {
             Halcyon Kleos
           </h1>
           <div className="flex gap-8 flex-wrap text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] ">
-            <a href="">
+            <a href="https://www.facebook.com/halcyonkleos1/" target="_blank">
               <BsFacebook
                 size={30}
                 className="hover:text-pink-300 cursor-pointer hover:scale-105 "
               />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/halcyon_kleos/" target="_blank">
               <BsInstagram
                 size={30}
                 className="hover:text-pink-300 cursor-pointer hover:scale-105"
               />
             </a>
-            <a href="">
+            <a
+              href="https://www.youtube.com/channel/UC1aC8N6gGrAtNrvrBE4dAsw?app=desktop"
+              target="_blank"
+            >
               <BsYoutube
                 size={30}
                 className="hover:text-pink-300 cursor-pointer hover:scale-105"
               />
             </a>
-            <a href="">
+            <a href="https://soundcloud.com/halcyonkleos" target="_blank">
               <FaSoundcloud
                 size={30}
                 className="hover:text-pink-300 cursor-pointer hover:scale-105"
               />
             </a>
-            <a href="">
+            <a href="https://twitter.com/HalcyonKleos" target="_blank">
               <FaTwitterSquare
                 size={30}
                 className="hover:text-pink-300 cursor-pointer hover:scale-105"
               />
             </a>
-            <a href="">
+            <a href="https://www.mixcloud.com/halcyon_kleos/" target="_blank">
               <FaMixcloud
                 size={30}
                 className="hover:text-pink-300 cursor-pointer hover:scale-105"
