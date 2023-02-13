@@ -2,7 +2,7 @@ import React from "react";
 
 const News = () => {
   return (
-    <div className="flex justify-center w-full ">
+    <div id="news" className="flex justify-center w-full ">
       <iframe
         width="360"
         height="500"

@@ -3,7 +3,7 @@ import News from "./News";
 
 const About = () => {
   return (
-    <div id="about" className=" mt-0 pt-0 mx-auto w-[75%] grid md:grid-cols-2">
+    <div id="about" className=" mt-0 pt-0 mx-auto w-[75%] grid lg:grid-cols-2  lg:gap-4">
       <div className="flex justify-center items-center text-gray-100 pl-8 ">
         <p className="text-lg tracking-wide text-gray-200  ">
           British DJ/Producer specializing in organ house music. I have been

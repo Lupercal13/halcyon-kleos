@@ -14,18 +14,35 @@ const Navbar = () => {
         <h1 className="text-6xl font-shalimar ml-4">Halcyon Kleos</h1>
         <div className=" hidden sm:flex">
           <ul className="flex gap-4 mr-8 text-lg">
-            <a href="#home"><li className="cursor-pointer hover:text-gray-300 hover:border-b">
-              Top
-            </li></a>
-            <li className="cursor-pointer hover:text-gray-300 hover:border-b">
-              About
-            </li>
-            <li className="cursor-pointer hover:text-gray-300 hover:border-b">
-              Music
-            </li>
-            <li className="cursor-pointer hover:text-gray-300 hover:border-b">
-              Contact
-            </li>
+            <a href="#home">
+              <li className="cursor-pointer hover:text-gray-300 hover:border-b">
+                Top
+              </li>
+            </a>
+            <a href="#about">
+              {" "}
+              <li className="cursor-pointer hover:text-gray-300 hover:border-b">
+                About
+              </li>
+            </a>
+            <a href="#news">
+              {" "}
+              <li className="cursor-pointer hover:text-gray-300 hover:border-b">
+                News
+              </li>
+            </a>
+            <a href="#contact">
+              {" "}
+              <li className="cursor-pointer hover:text-gray-300 hover:border-b">
+                Contact
+              </li>
+            </a>
+            <a href="#music">
+              {" "}
+              <li className="cursor-pointer hover:text-gray-300 hover:border-b">
+                Music
+              </li>
+            </a>
           </ul>
         </div>
         {/* Hamburger Menu */}
@@ -43,30 +60,51 @@ const Navbar = () => {
           }
         >
           <ul className="text-center">
-            <li
-              onClick={() => setNav(false)}
-              className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
-            >
-              Home
-            </li>
-            <li
-              onClick={() => setNav(false)}
-              className="p-4 text-3xl font-bold  hover:text-gray-300 cursor-pointer"
-            >
-              About
-            </li>
-            <li
-              onClick={() => setNav(false)}
-              className="p-4 text-3xl font-bold  hover:text-gray-300 cursor-pointer"
-            >
-              Music
-            </li>
-            <li
-              onClick={() => setNav(false)}
-              className="p-4 text-3xl font-bold  hover:text-gray-300 cursor-pointer"
-            >
-              Contact
-            </li>
+            <a href="#home">
+              {" "}
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                Top
+              </li>
+            </a>
+            <a href="#about">
+              {" "}
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                About
+              </li>
+            </a>
+            <a href="#news">
+              {" "}
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                News
+              </li>
+            </a>
+            <a href="#contact">
+              {" "}
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                Contact{" "}
+              </li>
+            </a>
+            <a href="#music">
+              {" "}
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                Music
+              </li>
+            </a>
           </ul>
         </div>
       </div>
