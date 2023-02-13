@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Music from "./components/Music";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import News from "./components/News";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Featured />
       <About />
+      {/* <News /> */}
       <Contact />
       <Music />
       <Footer />
